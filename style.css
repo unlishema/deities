@@ -1,4 +1,8 @@
-div#title {
+div#section {
+  background-color: #060606;
+  color: #CACACA;
+}
+div#section div#title {
   background-color: #3C3C3C;
   color: #FAFAFA;
   padding-top: 5px;
@@ -6,7 +10,7 @@ div#title {
   padding-bottom: 5px;
   padding-left: 8px;
 }
-div#section {
+div#section div#body {
   background-color: #060606;
   color: #CACACA;
   padding-top: 5px;
