@@ -1,3 +1,6 @@
+body {
+  background: #000000;
+}
 div#section {
   background-color: #060606;
   color: #CACACA;
@@ -6,7 +9,7 @@ div#section {
   border-width: 3px;
 }
 div#section div#title {
-  background-color: #2C2C2C;
+  background-color: #383838;
   color: #FAFAFA;
   padding-top: 5px;
   padding-right: 8px;
@@ -14,7 +17,7 @@ div#section div#title {
   padding-left: 8px;
 }
 div#section div#body {
-  background-color: #060606;
+  background-color: #1B1B1B;
   color: #CACACA;
   padding-top: 5px;
   padding-right: 8px;
