@@ -1,2 +1,2 @@
-# deities
-Deities is a repo designed to host the Deities Online website.
+# Deities Online
+A repo designed to host the Deities Online website.
