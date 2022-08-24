@@ -1,9 +1,12 @@
 div#section {
   background-color: #060606;
   color: #CACACA;
+  border-color: #666666;
+  border-style: outset;
+  border-width: 3px;
 }
 div#section div#title {
-  background-color: #3C3C3C;
+  background-color: #2C2C2C;
   color: #FAFAFA;
   padding-top: 5px;
   padding-right: 8px;
