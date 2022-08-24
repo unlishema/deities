@@ -1,12 +1,33 @@
 body {
   background: #000000;
 }
+div#navigation {
+  background-color: #060606;
+  color: #CACACA;
+  border-color: #666666;
+  border-style: outset;
+  border-width: 3px;
+  width: 200px;
+}
+div#controls {
+  background-color: #060606;
+  color: #CACACA;
+  border-color: #666666;
+  border-style: outset;
+  border-width: 3px;
+  margin-left: auto; 
+  margin-right: 0;
+  width: 200px;
+}
 div#section {
   background-color: #060606;
   color: #CACACA;
   border-color: #666666;
   border-style: outset;
   border-width: 3px;
+  position: sticky;
+  left: 200px;
+  width: calc(100% - 400px);
 }
 div#section div#title {
   background-color: #383838;
