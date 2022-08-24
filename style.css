@@ -7,7 +7,11 @@ ul#navigation {
   border-color: #666666;
   border-style: outset;
   border-width: 3px;
-  width: 200px;
+  z-index: 10;
+  position: fixed;
+  left:0;
+  top:0;
+  width: 125px;
 }
 ul#controls {
   background-color: #060606;
@@ -15,9 +19,33 @@ ul#controls {
   border-color: #666666;
   border-style: outset;
   border-width: 3px;
-  margin-left: auto; 
-  margin-right: 0;
-  width: 200px;
+  z-index: 10;
+  position: fixed;
+  right:0;
+  top:0;
+  width: 125px;
+}
+ul#controls li {
+  background-color: #060606;
+  border-color: #CFCFCF;
+  border-style:groove;
+  border-width: 2px;
+  color: lime;
+  text-align: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul#controls li:hover {
+  background-color: #3C3C3C;
+  border-color: #CFCFCF;
+  border-style:groove;
+  border-width: 2px;
+  color: blue;
+  text-align: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 div#section {
   background-color: #060606;
@@ -25,9 +53,10 @@ div#section {
   border-color: #666666;
   border-style: outset;
   border-width: 3px;
-  position: sticky;
-  left: 200px;
-  width: calc(100% - 400px);
+  position:absolute;
+  left: 180px;
+  top: 20px;
+  width: calc(100% - 360px)
 }
 div#section div#title {
   background-color: #383838;
